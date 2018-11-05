@@ -4,25 +4,10 @@
           <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Account-Owner Home</a>
       </div>
       <ul class="nav navbar-nav">
-          <li class="nav-item"><a href="#">Owner Actions</a></li>
+          <li class="nav-item"><a [routerLink]="['/owner/owner-list']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Owner Actions</a></li>
         <li class="nav-item"><a href="#">Account Actions</a></li>
       </ul>
     </div>
   </nav>
   
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a href="#">Account Actions</a>
-        </li>
-        <li class="nav-item">        
-          <a href="#">Owner Actions</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+ 
